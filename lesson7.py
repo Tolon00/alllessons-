@@ -43,3 +43,10 @@ print(c.fetchone()) #достает первую
 print(c.fetchmany(4)) #достает сколько указано
 db.commit() #сохранение
 db.close()
+
+
+
+
+# git checkout master(tolon) - изменение ветки
+# git merge tolon(master) - слияет ветку
+# git checkout -b test(kdjfk) - создает новую ветку и слияет предыдущую ветку и переключиться на новую
